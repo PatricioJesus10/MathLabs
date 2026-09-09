@@ -1,0 +1,17 @@
+#Entorno Virtual 
+.venv/
+venv/
+ENV/
+
+# Variables de entorno y secretos (Neon DB , CLAVES JWT)
+.env
+
+#Archivos de cache de python 
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Archivos de configuracion de VS Code y sistema 
+.vscode/
+.DS_Store
+Thumbs.db
